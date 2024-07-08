@@ -1,0 +1,76 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the button and table rows */
+.container {
+    margin: 20px;
+    
+}
+
+/* Button Styles */
+.add_button {
+    text-align: right;
+}
+
+.add_button button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.add_button button:hover {
+    background-color: #0092b3;
+}
+
+/* Table Row Styles */
+.tr_color {
+    color: #fff;
+    background-color: #3052d8;
+}
+
+.tr_color:hover {
+    background-color: #1f3db5;
+}
+
+/* General Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        margin: 10px;
+        
+    }
+
+    .add_button {
+        text-align: left;
+        
+    }
+}
